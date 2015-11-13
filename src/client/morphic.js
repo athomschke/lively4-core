@@ -21,12 +21,6 @@ export function initMorphicTools() {
 	initStylesheet();
 }
 
-function initDragBehaviour() {
-	$("body").on("click", function(evt) {
-		
-	});
-}
-
 function initStylesheet() {
 	$("<link/>", {
 	   rel: "stylesheet",
@@ -227,3 +221,4 @@ function selectorMatchesTree(selector, rootElement) {
 	// if we reach this, none of the tree nodes matches the selector
 	return false;
 }
+
